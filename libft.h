@@ -6,7 +6,7 @@
 /*   By: mamauss <marvin@42quebec.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/29 13:07:07 by mamauss           #+#    #+#             */
-/*   Updated: 2024/03/17 14:24:03 by mamauss          ###   ########.fr       */
+/*   Updated: 2024/03/19 15:13:31 by mamauss          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -51,4 +51,5 @@ char	*ft_strtrim(char const *s1, char const *set);
 char	*ft_strjoin(char const *s1, char const *s2);
 int		ft_putchar_arg(va_list args);
 int		ft_putstr_arg(va_list args);
+int		ft_puthexa_arg(va_list args);
 #endif
